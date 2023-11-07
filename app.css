@@ -15,7 +15,7 @@ main {
 }
 .all {
   position: relative;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
 }
@@ -32,7 +32,7 @@ main {
 .content {
   border-left: 1px gray solid;
   border-right: 1px gray solid;
-  width: 700px;
+  width: 600px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  width: 400px;
+  width: 350px;
   position: sticky;
   top: -60px;
   height: 100vh;
@@ -123,14 +123,17 @@ main {
   padding: 0px;
   padding: 21px 0;
 }
+.beforeit{
+  position: relative;
+}
 .content .folorfoli .beforeit::before {
   content: "";
-  width: 40px;
+  width: 46px;
   height: 2px;
   border-radius: 12px;
   position: absolute;
   top: 62px;
-  left: 140px;
+  left: 8px;
   border: 1px #1d9bf0 solid;
   background-color: #73bae9;
 }
@@ -335,20 +338,6 @@ footer p {
 #copy {
   grid-area: f;
 }
-@media only screen and (max-width: 678px) {
-  .navbar {
-    display: none;
-  }
-  .trends {
-    display: none;
-  }
-  .content .folorfoli .beforeit::before {
-    left: 104px;
-  }
-  .all {
-    padding: 20px;
-  }
-  .content {
-    width: 600px;
-  }
+
+@media all and (max-width: 1265) {
 }
