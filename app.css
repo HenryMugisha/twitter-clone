@@ -15,7 +15,7 @@ main {
 }
 .all {
   position: relative;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -36,7 +36,7 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  flex: 3 0 500px;
+  flex: 1 0 432px;
 }
 .trends {
   display: flex;
@@ -339,5 +339,55 @@ footer p {
   grid-area: f;
 }
 
-@media all and (max-width: 1265) {
+@media all and (max-width: 1265px) {
+  .trends {
+    top: -150px;
+  }
+  .all .navbar p {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-evenly;
+  }
+  .navbar button {
+    display: none;
+  }
+  .navbarprofile {
+    display: block;
+    margin-top: 0;
+    margin: 2px 0 0 2px;
+  }
+  .navbar .navbarprofile svg {
+    display: none;
+  }
+  .navbarprofile .navbarusername {
+    display: none;
+  }
+  .fenda {
+    background-color: #1d9bf0;
+    padding: 12px 12px;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbarprofile .thenavbarprofile img {
+    height: 90%;
+    width: 90%;
+    border-radius: 99999px;
+  }
+}
+@media all and (max-width: 988px) {
+  .trends {
+    display: none;
+  }
+  .content {
+    width: 600px;
+    box-sizing: border-box;
+  }
+}
+@media all and (min-width: 1265px) {
+  .fenda {
+    display: none;
+  }
 }
