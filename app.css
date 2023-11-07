@@ -123,19 +123,19 @@ main {
   padding: 0px;
   padding: 21px 0;
 }
-.beforeit{
+.beforeit {
   position: relative;
 }
 .content .folorfoli .beforeit::before {
   content: "";
-  width: 46px;
-  height: 2px;
+  width: 56px;
+  height: 4px;
   border-radius: 12px;
   position: absolute;
-  top: 62px;
-  left: 8px;
-  border: 1px #1d9bf0 solid;
-  background-color: #73bae9;
+  top: 60px;
+  left: 1px;
+  background-color: #1d9bf0;
+  fill: #e7e9ea;
 }
 .contentprofile {
   padding: 12px;
