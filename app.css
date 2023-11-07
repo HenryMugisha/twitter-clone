@@ -1,0 +1,354 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+main {
+  color: white;
+  background-color: black;
+  position: relative;
+  display: flex;
+}
+.all {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  width: 20%;
+  height: 100vh;
+  flex: 0 3;
+}
+.content {
+  border-left: 1px gray solid;
+  border-right: 1px gray solid;
+  width: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 3 0 500px;
+}
+.trends {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 400px;
+  position: sticky;
+  top: -60px;
+  height: 100vh;
+  flex-shrink: 2;
+  flex-grow: 1;
+}
+.bold {
+  font-weight: bold;
+}
+.navbar button {
+  align-self: center;
+  width: 85%;
+  height: 48px;
+  padding: 12px 40px;
+  border-radius: 9999px;
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  margin-top: 12px;
+}
+.navbar .navbargo {
+  color: white;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbargo p {
+  margin: 0 0 0 12px;
+}
+.all .navbar svg {
+  fill: white;
+  width: 28px;
+}
+.logo {
+  width: 40px;
+  margin: 0;
+}
+.navbarusername {
+  padding-left: 12px;
+}
+.navbarusername p {
+  margin: 0;
+}
+.navbarprofile .thenavbarprofile img {
+  width: 40px;
+  border-radius: 20px;
+}
+.navbarprofile {
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  margin-top: 80px;
+}
+.navbarprofile svg {
+  padding-left: 30px;
+}
+.grayones {
+  color: gray;
+}
+
+.thehome {
+  padding-left: 12px;
+}
+.content .folorfoli {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  justify-content: space-around;
+  border-bottom: solid 1px gray;
+  box-sizing: border-box;
+}
+.content .folorfoli p {
+  margin: 0;
+  padding: 0px;
+  padding: 21px 0;
+}
+.content .folorfoli .beforeit::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  border-radius: 12px;
+  position: absolute;
+  top: 62px;
+  left: 140px;
+  border: 1px #1d9bf0 solid;
+  background-color: #73bae9;
+}
+.contentprofile {
+  padding: 12px;
+  display: flex;
+  border-bottom: solid gray 1px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contentprofile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+.contentprofile .contentinput {
+  width: 90%;
+  padding-left: 6px;
+}
+.contentprofile .contentinput input {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.contentchoose {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 11px;
+}
+.contentchoose .choosebtn button {
+  opacity: 0.5;
+  padding: 7px 19px;
+  border-radius: 99px;
+  border: none;
+  background-color: #1d9bf0;
+  color: white;
+}
+.contentchoose .choosebtn button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.opacity {
+  opacity: 0.5;
+}
+.contentchoose .chooseone svg {
+  fill: #1d9bf0;
+  width: 20px;
+}
+.contentchoose .chooseone {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.post {
+  padding-top: 12px;
+  padding-left: 9px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  border: #222425 solid 1px;
+}
+.allpostprofile {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 12px;
+}
+.profileall {
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+  align-self: flex-start;
+}
+.name p {
+  font-size: 14px;
+  margin: 0;
+  display: inline-block;
+}
+.username {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 12px;
+}
+.tweet {
+  padding: 9px 0;
+}
+.username .threedots svg {
+  fill: white;
+  width: 20px;
+}
+.description img {
+  height: 300px;
+  border-radius: 15px;
+}
+.description p {
+  margin: 0;
+  padding-bottom: 11px;
+}
+.goodreact {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.reactions .goodreact .reacts {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  justify-content: space-between;
+}
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.reactions .goodreact p {
+  margin: 0;
+  padding: 0;
+}
+.reactions svg {
+  fill: gray;
+  width: 18px;
+}
+.reactions svg:hover {
+  fill: #73bae9;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+footer p {
+  margin: 0;
+}
+
+.search {
+  padding-top: 12px;
+  width: 73%;
+}
+.trends .search input {
+  box-sizing: border-box;
+  background-color: #222425;
+  border: none;
+  height: 40px;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+  border-radius: 999px;
+}
+.trendsyou {
+  background-color: #222425;
+  margin-top: 19px;
+  border-radius: 20px;
+  width: 73%;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-bottom: 17px;
+}
+.trending p {
+  margin: 8px 0;
+}
+.trending .grayones {
+  font-size: small;
+}
+.grayones.bottom {
+  margin-top: 12px;
+  font-size: 12px;
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  width: 73%;
+}
+.grayones.bottom p {
+  margin: 0;
+  padding: 5px 5px;
+}
+#terms {
+  grid-area: a;
+}
+#policy {
+  grid-area: b;
+}
+#cookie {
+  grid-area: c;
+}
+#access {
+  grid-area: d;
+}
+#ads {
+  grid-area: e;
+}
+#copy {
+  grid-area: f;
+}
+@media only screen and (max-width: 678px) {
+  .navbar {
+    display: none;
+  }
+  .trends {
+    display: none;
+  }
+  .content .folorfoli .beforeit::before {
+    left: 104px;
+  }
+  .all {
+    padding: 20px;
+  }
+  .content {
+    width: 600px;
+  }
+}
