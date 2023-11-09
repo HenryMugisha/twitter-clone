@@ -27,7 +27,7 @@ main {
   top: 0;
   width: 20%;
   height: 100vh;
-  flex: 0 3;
+  flex: 1 0 0;
 }
 .content {
   border-left: 1px gray solid;
@@ -36,7 +36,7 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  flex: 1 0 432px;
+  flex: 9 1 433px;
 }
 .trends {
   display: flex;
@@ -237,6 +237,7 @@ main {
 .description p {
   margin: 0;
   padding-bottom: 11px;
+  padding-right: 10px;
 }
 .goodreact {
   display: flex;
@@ -352,10 +353,13 @@ footer p {
   .navbar button {
     display: none;
   }
+  .content {
+    flex: 9 0 442px;
+  }
   .navbarprofile {
     display: block;
     margin-top: 0;
-    margin: 2px 0 0 2px;
+    margin: 10px 0 0 2px;
   }
   .navbar .navbarprofile svg {
     display: none;
@@ -382,8 +386,7 @@ footer p {
     display: none;
   }
   .content {
-    width: 600px;
-    box-sizing: border-box;
+   
   }
 }
 @media all and (min-width: 1265px) {
